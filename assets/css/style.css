@@ -250,6 +250,9 @@ hr.hr {
     padding-bottom: 20px;
  }
 
+ .center {
+     margin:  0 auto;
+ }
 /*----------------------------------------
 Buttons
 ----------------------------------------*/
@@ -260,15 +263,15 @@ Buttons
 }
 
 .btn-red {
-    background-color: #fa6262;
+    background-color: #8400E2;
     color: #fff;
-    box-shadow: 0 5px 15px rgba(250, 98, 98, 0.4);
+    box-shadow: 0 5px 15px #000000;
 }
 
 .btn-red:hover {
-    background-color: #fa6262;
+    background-color: #8400E2;
     color: #fff;
-    box-shadow: 0 8px 25px rgba(250, 98, 98, 0.55);
+    box-shadow: 0 8px 25px #000000;
 }
 
 /*----------------------------------------
@@ -366,6 +369,12 @@ Navigation
 .navbar-brand{
     padding: 0;
 }
+
+.navbar-brand img{
+    width: 200px;
+}
+
+
 .navbar-header .navbar {
     padding: 0;
 }
@@ -485,7 +494,7 @@ Hero
     font-size: 35px;
     line-height: 55px;
     font-weight: 600;
-    color: #fa6262;
+    color: #8400E2;
     white-space:pre;
 
 }
@@ -501,6 +510,12 @@ Hero
 /*----------------------------------------
 About
 ----------------------------------------*/
+
+#contact {
+    background-color: #f8f9f9;
+    width: 100%;
+    height: auto,
+}
 
 .icon-block img {
     width: 50px;
@@ -550,9 +565,10 @@ Features
 .features-text p,
 p.font-p {
      font-size: 16px;
-    line-height: 28px;
+    line-height: 30px;
     margin-bottom: 30px;
     margin-top: 30px;
+    text-align: justify;
 }
 
 .video-box img {
@@ -565,17 +581,7 @@ p.font-p {
     position: relative;
 }
 
-.ply-btn {
-    z-index: 999;
-    position: absolute;
-    top: 30%;
-    left: 38%;
-    transform: translate(50%, 50%);
-}
 
-.ply-btn img {
-    width: 80px;
-}
 
 .video-box:after {
     top: 0;
@@ -591,49 +597,7 @@ p.font-p {
     -webkit-border-radius: 10px;
 }
 
-.list-p li {
-    position: relative;
-    padding-left: 25px;
-    font-weight: 600;
-}
 
-.list-p li:before {
-    font-family: 'ElegantIcons';
-    content: "\52";
-    position: absolute;
-    left: -5px;
-    top: 3px;
-    color: #fa6262;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
-
-}
-
-.progrees-bar-content {
-    margin-bottom: 20px;
-}
-.progrees-bar-content span{
-    font-weight: 600;  
-}
-.progrees-bar-content:last-child{
-    margin-bottom: 0;
-}
-.progrees-bar-content .progress {
-    margin-top: 5px;
-    border-radius: 23px;
-    -moz-border-radius: 23px;
-    -webkit-border-radius: 23px;
-}
-
-.progrees-bar-content .progress-bar {
-    background-color: #fa6262;
-    border-radius: 23px;
-    -moz-border-radius: 23px;
-    -webkit-border-radius: 23px;
-
-}
 
 .service-block {
     text-align: center;
