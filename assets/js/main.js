@@ -89,28 +89,28 @@ Portfolio
 
   
 
-    $('.testimonial-caroussel').owlCarousel({
-        loop: true,
-        responsiveClass: true,
-        nav: false,
-        dots: true,
-        margin:12,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 500,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            600: {
-                items: 1
+    // $('.testimonial-caroussel').owlCarousel({
+    //     loop: true,
+    //     responsiveClass: true,
+    //     nav: false,
+    //     dots: true,
+    //     margin:12,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     smartSpeed: 500,
+    //     responsive: {
+    //         0: {
+    //             items: 1,
+    //         },
+    //         600: {
+    //             items: 1
 
-            },
-            1200: {
-                items: 2
-            }
-        }
-    });
+    //         },
+    //         1200: {
+    //             items: 2
+    //         }
+    //     }
+    // });
 
 
 
@@ -138,30 +138,7 @@ Portfolio
     });
     
     
-    
-     $('.portfolio-caroussel').owlCarousel({
-        loop: true,
-        responsiveClass: true,
-        nav: true,
-        dots: false, 
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 500,
-        navText: ['<span class="arrow_carrot-left"></span>', '<span class="arrow_carrot-right"></span>'],
-        responsive: {
-            0: {
-                items: 1,
-            },
-            600: {
-                items: 1
-
-            },
-            1200: {
-                items: 1
-            }
-        }
-    });
- 
+   
  
 
     /*--------------------
@@ -215,26 +192,11 @@ VenoBox
             }
         }
     });
-    /* ---------------------------------------------
-     Back top page scroll up
-     --------------------------------------------- */
+   
 
 
-    $.scrollUp({
-        scrollText: '<i class="arrow_carrot-2up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'fade'
-    });
+    
 
-
-    /* ---------------------------------------------
-     WoW plugin
-     --------------------------------------------- */
-
-    new WOW().init({
-        mobile: true,
-    });
 
     /* ---------------------------------------------
      Smooth scroll
@@ -259,22 +221,6 @@ VenoBox
 
 
 
-    /*----------------------------------------
-     Newsletter Subscribe
-     --------------------------------------*/
-
-    $(".subscribe-mail").ajaxChimp({
-        callback: mailchimpCallRep,
-        url: "mailchimp-post-url" //Replace this with your own mailchimp post URL. Just paste the url inside "".
-    });
-
-    function mailchimpCallRep(resp) {
-        if (resp.result === "success") {
-            $(".sucess-message").html(resp.msg).fadeIn(1000);
-            $(".error-message").fadeOut(500);
-        } else if (resp.result === "error") {
-            $(".error-message").html(resp.msg).fadeIn(1000);
-        }
-    }
+    
 
 });
