@@ -495,6 +495,13 @@ Navigation
 Hero
 ----------------------------------------*/
 
+#home {
+    background-image: url("/assets/images/pexels-photo-606541.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero {
     padding-bottom: 150px;
     position: relative;
@@ -533,42 +540,6 @@ Hero
 About
 ----------------------------------------*/
 
-#contact {
-    background-color: #f8f9f9;
-    width: 100%;
-    height: auto,
-}
-
-.icon-block img {
-    width: 50px;
-    margin-bottom: 25px;
-    height: auto,
-}
-
-.icon-block {
-    padding: 35px 20px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: 0 3px 15px rgba(76, 76, 77, 0.15);
-    background-color: #ffffff;
-}
-
-.icon-block h3 {
-    font-weight: 700;
-    font-size: 18px;
-    color: #171f3c;
-    margin-bottom: 25px
-}
-
-.icon-block:hover,
-.icon-block:focus {
-    box-shadow: 0 10px 35px 2px rgba(61, 61, 61, .12);
-}
-
-/*----------------------------------------
-Features
-----------------------------------------*/
 
 .title-h2 {
     font-size: 42px;
@@ -753,8 +724,12 @@ Contact
 ----------------------------------------*/
 
 #contact {
-    background: #f8f9f9;
+    background-color: #f8f9f9;
+    width: 100%;
+    height: auto,
 }
+
+
 
 #contact .section-container .row {
     display: grid;
