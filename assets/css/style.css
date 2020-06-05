@@ -757,9 +757,11 @@ Contact
 }
 
 #contact .section-container .row {
+    display: grid;
     height: 600px;
     padding-top: 30px;
     width: 100%;
+    margin: 0;
 
 }
 
@@ -798,7 +800,7 @@ Contact
     display: grid;
     grid-template-columns: repeat(1, auto);
     margin: 0 auto;
-    width: 63%;
+
 }
 
 #contact .section-container .row .connected-column .wrapper #form .input-field {
@@ -1026,124 +1028,122 @@ footer p.sucess-message {
     line-height: 32px;
 }
 
-.subscribe-form .form-control {
-    outline: none;
-    float: left;
-    height: 45px;
-    width: 89%;
-    color: #fff;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -wbekit-border-radius: 10px;
-    padding: 0 15px 0 15px;
-    box-shadow: none;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    transition: all .3s;
-    background-color: rgba(255, 255, 255, 0.15);
-    border: none;
-}
-
-.subscribe-form .btn-subscribe {
-    position: relative;
-    margin-top: 15px;
-    height: 45px;
-    width: 100%;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -wbekit-border-radius: 10px;
-    padding: 0 15px 0 15px;
-    color: #fff;
-    background: #fa6262;
-
-}
-
-.btn-subscribe:hover,
-.btn-subscribe:focus,
-.btn-subscribe:active {
-    background: #fa6262;
-    color: #fff;
-}
 
 
 
- 
-  @media only screen and (min-width: 300px) {
+
+@media only screen and (min-width: 300px) {
+
+    #contact .section-container .row {
+        height: 540px;
+        
+    }
 
     #contact .section-container .row .connected-column .connected-title-box h2 {
-    
-        padding: 0 50px;
-    }
-    
-    #contact .section-container .row .connected-column .wrapper {
-        width: 88%;
+        padding: 0 40px;
     }
 
-    
-#contact .section-container .row .connected-column .wrapper #form .input-field #name {
-    width: 150px;
+
+    #contact .section-container .row .connected-column .wrapper {
+        max-width: 305px;
+    }
+
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #name {
+        width: 150px;
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #email {
+        width: 150px;
+
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #subject {
+        width: 150px;
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #phone-number {
+        width: 150px;
+    }
+
+    #contact .section-container .row .wrapper #form .input-field #message {
+        width: 305px;
+    }
+
 }
 
-#contact .section-container .row .connected-column .wrapper #form .input-field #email {
-    width: 150px;
+
+
+@media only screen and (min-width: 400px) {
+
+    #contact .section-container .row .connected-column .wrapper {
+        max-width: 300px;
+    }
+
 
 }
 
-#contact .section-container .row .connected-column .wrapper #form .input-field #subject {
-    width: 150px;
+@media only screen and (min-width: 500px) {
+
+    #contact .section-container .row .connected-column .wrapper {
+        max-width: 400px;
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #name {
+        width: 200px;
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #email {
+        width: 200px;
+
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #subject {
+        width: 200px;
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #phone-number {
+        width: 200px;
+    }
+
+    #contact .section-container .row .wrapper #form .input-field #message {
+        width: 405px;
+    }
 }
 
-#contact .section-container .row .connected-column .wrapper #form .input-field #phone-number {  
-    width: 150px; 
+@media only screen and (min-width: 700px) {
+    #contact .section-container .row {
+        height: 500px;
+    }
+
+
+    #contact .section-container .row .connected-column .wrapper {
+        max-width: 610px;
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #name {
+        width: 300px;
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #email {
+        width: 300px;
+
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #subject {
+        width: 300px;
+    }
+
+    #contact .section-container .row .connected-column .wrapper #form .input-field #phone-number {
+        width: 300px;
+    }
+
+    #contact .section-container .row .wrapper #form .input-field #message {
+        width: 605px;
+    }
+
+
+
 }
 
-#contact .section-container .row .wrapper #form .input-field #message {
-    width: 305px;
-}
 
-  }
-
-  @media only screen and (min-width: 360px) { 
-
-    #contact .section-container .row .connected-column .wrapper {
-        width: 71%;
-    }
-
-
-  }
-
-  @media only screen and (min-width: 400px) { 
-
-    #contact .section-container .row .connected-column .wrapper {
-        width: 64%;
-    }
-
-
-  }
-
-  @media only screen and (min-width: 400px) { 
-
-    #contact .section-container .row .connected-column .wrapper {
-        width: 64%;
-    }
-
-
-  }
-
-
-  @media only screen and (min-width: 1200px) {
-    
-    #contact .section-container .row .connected-column .wrapper {
-        width: 63%;
-    }
-
-  }
-
-  @media only screen and (min-width: 1300px) {
-    
-    #contact .section-container .row .connected-column .wrapper {
-        width: 54%;
-    }
-
-  }

@@ -89,28 +89,28 @@ Portfolio
 
   
 
-    // $('.testimonial-caroussel').owlCarousel({
-    //     loop: true,
-    //     responsiveClass: true,
-    //     nav: false,
-    //     dots: true,
-    //     margin:12,
-    //     autoplay: true,
-    //     autoplayTimeout: 4000,
-    //     smartSpeed: 500,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         600: {
-    //             items: 1
+    $('.testimonial-caroussel').owlCarousel({
+        loop: true,
+        responsiveClass: true,
+        nav: false,
+        dots: true,
+        margin:12,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 500,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                items: 1
 
-    //         },
-    //         1200: {
-    //             items: 2
-    //         }
-    //     }
-    // });
+            },
+            1200: {
+                items: 2
+            }
+        }
+    });
 
 
 
@@ -164,38 +164,8 @@ $('.modal-image').magnificPopup({
     }
 });
 
- /*--------------------
-VenoBox
- ----------------------*/
-    
-    	$('.modal-venobox').venobox({
-      numeratio: true,            // default: false
-      infinigall: true,
-      titleattr: 'data-title',    // default: 'title'// default: false
-			});	
-    
-    /*----------------------------------------------------*/
-    /*  VIDEO POP PUP
-    /*----------------------------------------------------*/
 
-    $('.video-modal').magnificPopup({
-        type: 'iframe',
-
-        iframe: {
-            patterns: {
-                youtube: {
-
-                    index: 'youtube.com',
-                    src: 'https://www.youtube.com/embed/7e90gBu4pas'
-
-                }
-            }
-        }
-    });
    
-
-
-    
 
 
     /* ---------------------------------------------
