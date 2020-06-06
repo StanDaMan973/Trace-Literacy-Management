@@ -51,35 +51,6 @@ $(".progress-bar").each(function(i){
  
 
 
-    /* ---------------------------------------------
-Portfolio
- --------------------------------------------- */
-    $(document).ready(function () {
-
-        $(".filter-btn").on('click', function (event) {
-
-            event.preventDefault();
-            var value = $(this).attr('data-filter');
-
-
-            if (value == "all") {
-
-                $('.filter').fadeIn('2000');
-            } else {
-
-                $(".filter").not('.' + value).fadeOut('3000');
-                $('.filter').filter('.' + value).fadeIn('3000');
-
-            }
-             $(".filter-btn").removeClass("active"); 
-               $(this).addClass("active");
-        });
-
-
-      
-     
-
-    });
 
 
     /* ---------------------------------------------

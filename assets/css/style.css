@@ -945,7 +945,8 @@ footer p.sucess-message {
 
 
 .logo-footer img {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    width: 200px;
 }
 
 .text-footer p {
