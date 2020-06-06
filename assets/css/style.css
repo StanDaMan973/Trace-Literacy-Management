@@ -27,6 +27,10 @@ Table of content
 General Styles
 ----------------------------------------*/
 
+html {
+    overflow-x: hidden;
+}
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -34,6 +38,7 @@ body {
     line-height: 26px;
     overflow-x: hidden;
     color: #637282;
+    
 }
 
 h1,
@@ -308,8 +313,8 @@ Preloader page
 .loader {
     width: 56px;
     height: 56px;
-    border: 8px solid rgba(250, 98, 98, 0.25);
-    border-top-color: #fa6262;
+    border: 8px solid rgba(132, 0, 226, 0.1);
+    border-top-color: #8400E2;
     border-radius: 50%;
     position: relative;
     animation: rotate 1s linear infinite;
@@ -327,47 +332,6 @@ Preloader page
     }
 }
 
-/*----------------------------------------
-aniamtion shapes 
-----------------------------------------*/
-
-.shapes-bg {
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-.circle {
-    fill: rgba(250, 98, 98, 0.12);
-}
-
-.pentahedron {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    fill: rgba(250, 98, 98, 0.12);
-}
-
-.rhombus {
-    fill: rgba(250, 98, 98, 0.12);
-    stroke: rgba(250, 98, 98, 0.12);
-}
-
-.x {
-    fill: rgba(250, 98, 98, 0.12);
-}
-
-svg {
-    display: block;
-    width: 24px !important;
-    height: 24px !important;
-    top: 0;
-    position: absolute;
-    transform: translateZ(0px);
-}
 
 
 /*----------------------------------------
