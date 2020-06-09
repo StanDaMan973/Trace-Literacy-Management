@@ -150,7 +150,7 @@ hr.hr {
 }
 
 .bg-color-1 {
-    background-color: #fa6262;
+    background-color: #8400E2;
 }
 
 /*-------margins padding--------*/
@@ -869,8 +869,8 @@ Footer
 .btn.btn-instgram:hover {
 
     color: white;
-    background-color: #9b6954;
-    border-color: #9b6954;
+    background-color:  #fb3958;
+    border-color:  #fb3958;
 }
 
 .subscribe-form {
@@ -889,7 +889,7 @@ Footer
 .list-social a {
     background-color: #fff;
     width: 35px;
-    color: #fa6262;
+    color: #8400E2;
     line-height: 35px;
     font-size: 14px;
     padding: 0;
@@ -951,21 +951,32 @@ footer p.sucess-message {
 
 .text-footer p {
     color: #adafc7;
+    text-align: justify
 }
 
 .footer-top h5 {
     color: #fff;
     font-size: 16px;
+    text-align: center;
+}
+
+.footer-top .list-menu li {
+    line-height: 28px;
+    color: #adafc7;
+    text-align: center;
+   
 }
 
 .footer-top .list-menu a {
     line-height: 28px;
     color: #adafc7;
+   
 }
 
 .list-contact li {
     color: #adafc7;
     line-height: 32px;
+    text-align: center;
 }
 
 
