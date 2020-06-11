@@ -548,26 +548,26 @@
                     </div>
                     <div class="connected-column">
                         <div class="wrapper">
-                            <form id='form'>
+                            <form id='form' action="contact.php" method="POST">
                                 <div id="error"></div>
                                 <div class="input-field">
-                                    <input type="text" placeholder="name" id="name" required>
+                                    <input type="text" name="name"  placeholder="name" id="name" required>
                                 </div>
 
                                 <div class="input-field">
-                                    <input type="text" placeholder="email" id="email" required>
+                                    <input type="email"  name="mail" placeholder="email" id="email" required>
                                 </div>
 
                                 <div class="input-field">
-                                    <input type="text" placeholder="type of service" id="subject" required>
+                                    <input type="text" name="service" placeholder="type of service" id="subject" required>
                                 </div>
 
                                 <div class="input-field">
-                                    <input type="text" placeholder="Phone Number" id="phone-number" required>
+                                    <input type="text" name="phone-number" placeholder="Phone Number" id="phone-number" required>
                                 </div>
 
                                 <div class="input-field">
-                                    <textarea placeholder="message" id="message"> </textarea>
+                                    <textarea name="message" placeholder="message" id="message"> </textarea>
                                 </div>
 
                                 <div class="btn-submit">
