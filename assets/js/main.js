@@ -159,9 +159,26 @@ $('.modal-image').magnificPopup({
             }
         }
     });
-
-
-
-    
-
 });
+
+
+    /*--------------------
+ Pop up
+ ----------------------*/
+
+ var boxs = document.querySelectorAll('[data-tab-target]'); 
+ var popUps = document.querySelectorAll('[data-tab-popup]'); 
+ 
+ 
+
+
+
+ boxs.forEach(function(box) {
+	box.addEventListener('click', function() {        
+		popUps.forEach(function(popup) {
+			popup.classList.toggle('show');
+		});
+		
+	})
+});
+
