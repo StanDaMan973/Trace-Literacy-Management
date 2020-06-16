@@ -166,19 +166,42 @@ $('.modal-image').magnificPopup({
  Pop up
  ----------------------*/
 
- var boxs = document.querySelectorAll('[data-tab-target]'); 
- var popUps = document.querySelectorAll('[data-tab-popup]'); 
- 
- 
+let serviceBox = document.querySelectorAll('[data-box]'); 
+let popUp = document.querySelectorAll('#mypopup'); 
 
 
+console.log(serviceBox);
 
- boxs.forEach(function(box) {
-	box.addEventListener('click', function() {        
-		popUps.forEach(function(popup) {
-			popup.classList.toggle('show');
-		});
-		
-	})
+serviceBox.forEach(function(box) {
+    box.addEventListener('click', function(e) {
+        let target = e.currentTarget;
+
+        if (target === serviceBox[0]) {
+            popUp[0].classList.toggle('show');
+        }
+
+        if (target === serviceBox[1]) {
+            popUp[1].classList.toggle('show');
+        }
+
+        if (target === serviceBox[2]) {
+            popUp[2].classList.toggle('show');
+        }
+
+        if (target === serviceBox[3]) {
+            popUp[3].classList.toggle('show');
+        }
+
+        if (target === serviceBox[4]) {
+            popUp[4].classList.toggle('show');
+        }
+
+        if (target === serviceBox[5]) {
+            popUp[5].classList.toggle('show');
+        }
+
+    })
 });
+
+
 
