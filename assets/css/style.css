@@ -783,6 +783,7 @@ Contact
     color: #8400E2;
     font-weight: 600;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 #contact .section-container .row .connected-column .connected-title-box h2 {
@@ -792,6 +793,7 @@ Contact
     line-height: 28px;
     color: #8400E2;
     margin-bottom: 20px;
+    text-transform: uppercase;
 
 }
 
