@@ -703,21 +703,9 @@ Testimonials
     margin-top: 30px;
 }
 
-.avatar-item img {
-    border: 6px solid rgba(255, 255, 255, 0.4);
-    width: 80px !important;
-    height: auto;
-    margin-right: 15px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-
-
-    float: left;
-}
 
 .avatar-info {
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 15px;
     overflow: hidden;
 }
