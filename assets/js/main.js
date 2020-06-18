@@ -170,8 +170,6 @@ let serviceBox = document.querySelectorAll('[data-box]');
 let popUp = document.querySelectorAll('#mypopup'); 
 
 
-console.log(serviceBox);
-
 serviceBox.forEach(function(box) {
     box.addEventListener('click', function(e) {
         let target = e.currentTarget;
