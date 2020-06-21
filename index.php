@@ -563,18 +563,18 @@
                     </div>
                     <div class="connected-column">
                         <div class="wrapper">
-                            <form id='form' action="contact.php" method="POST">
+                            <form id='form' action="contact.php" method="post">
                                 <div id="error"></div>
                                 <div class="input-field">
                                     <input type="text" name="name"  placeholder="name" id="name" required>
                                 </div>
 
                                 <div class="input-field">
-                                    <input type="email"  name="mail" placeholder="email" id="email" required>
+                                    <input type="text"  name="mail" placeholder="email" id="email" required>
                                 </div>
 
                                 <div class="input-field">
-                                    <input type="text" name="service" placeholder="type of service" id="subject" required>
+                                    <input type="text" name="subject" placeholder="type of service" id="subject" required>
                                 </div>
 
                                 <div class="input-field">
@@ -586,7 +586,7 @@
                                 </div>
 
                                 <div class="btn-submit">
-                                    <button type="submit">SEND</button>
+                                    <button type="submit" name="submit">SEND</button>
                                 </div>
                             </form>
                         </div>
