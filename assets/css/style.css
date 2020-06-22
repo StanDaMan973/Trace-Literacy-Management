@@ -1083,7 +1083,7 @@ footer p.sucess-message {
 @media only screen and (min-width: 300px) {
 
     #contact .section-container .row {
-        height: 540px;
+        height: 560px;
         
     }
 
@@ -1116,6 +1116,27 @@ footer p.sucess-message {
 
     #contact .section-container .row .wrapper #form .input-field #message {
         width: 305px;
+    }
+
+    .thankyou-box .text-box p {
+        padding: 0 10px;
+    }
+
+    .logo-footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-bottom: 0;
+    }
+
+    .list-social.list-inline{
+         width: 100%;
+         text-align: center;
+    }
+    
+    .list-social {
+        padding-top: 0px;
     }
 
 }
@@ -1190,8 +1211,23 @@ footer p.sucess-message {
         width: 605px;
     }
 
-
-
+    
+    .thankyou-box .text-box p {
+        padding:0;
+    }
 }
+
+
+@media only screen and (min-width: 900px) {
+
+    .logo-footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-bottom: 0;
+    }
+}
+
 
 
