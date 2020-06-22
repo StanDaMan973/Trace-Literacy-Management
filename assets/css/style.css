@@ -579,6 +579,50 @@ p.font-p {
 
 
 /*----------------------------------------
+thank you page
+----------------------------------------*/
+
+.thankyou-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.thankyou-box .text-box {
+    max-width: 600px;
+    width: 100%;
+}
+
+
+.thankyou-box .text-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+
+.thankyou-box .text-box p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+  
+}
+
+
+.thankyou-box .text-box .thankyou-button {
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+/*----------------------------------------
 Service
 ----------------------------------------*/
 

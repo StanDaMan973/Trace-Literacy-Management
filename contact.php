@@ -13,7 +13,8 @@ if(isset($_POST['submit'])) {
     $txt = "you have received an email from ".$name.".\n\n".$phoneNumber.".\n\n".$message;
     
     mail($mailTo, $subject, $txt, $headers);
-    header("location: index.php?mailsend");
+    header("location: thankyou.html");
+    exit();
 }
 
 ?>
