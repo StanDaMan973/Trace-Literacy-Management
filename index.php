@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=”Search the world’s information, including web pages, images, videos and more. Google has many special features to help you find exactly what you’re looking for.“>
+    <meta name="description" content=”We help students, writers, first-time authors, and professionals craft their best words on paper! Get a personalized approach to proofreading and editing with us!“>
     <title>Trace Literary Management</title>
 
     <!--External Stylesheets css-->
