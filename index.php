@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=”We help students, writers, first-time authors, and professionals craft their best words on paper! Get a personalized approach to proofreading and editing with us!“>
+    <meta name="keywords"
+        content="editorial, resume, cv, portfolio, personal, designer, personal resume, onepage, clean, modern">
     <title>Trace Literary Management</title>
 
     <!--External Stylesheets css-->
@@ -558,7 +560,7 @@
                     <div class="connected-column">
                         <div class="connected-title-box">
                             <h1>Show Us Your Words</h1>
-                            <h2>Connect with us for a personalized quote.</h2>
+                            <h2>Connect With Us for a Personalized Quote! Follow us on Instagram @traceyourwords </h2>
                         </div>
                     </div>
                     <div class="connected-column">
