@@ -170,36 +170,40 @@ let serviceBox = document.querySelectorAll('[data-box]');
 let popUp = document.querySelectorAll('#mypopup'); 
 
 
-serviceBox.forEach(function(box) {
-    box.addEventListener('click', function(e) {
-        let target = e.currentTarget;
+ serviceBox.forEach(function(box) {
+   box.addEventListener('click', function(e) {
+     let target = e.currentTarget;
 
-        if (target === serviceBox[0]) {
-            popUp[0].classList.toggle('show');
-        }
+          if (target === serviceBox[0]) {
+              popUp[0].classList.toggle('show');
+             }
 
-        if (target === serviceBox[1]) {
-            popUp[1].classList.toggle('show');
-        }
+               if (target === serviceBox[1]) {
+                 popUp[1].classList.toggle('show');
+                  }
 
-        if (target === serviceBox[2]) {
-            popUp[2].classList.toggle('show');
-        }
+               if (target === serviceBox[2]) {
+                  popUp[2].classList.toggle('show');
+                                              }
 
         if (target === serviceBox[3]) {
-            popUp[3].classList.toggle('show');
+           popUp[3].classList.toggle('show');
         }
 
         if (target === serviceBox[4]) {
             popUp[4].classList.toggle('show');
-        }
+       }
 
-        if (target === serviceBox[5]) {
+       if (target === serviceBox[5]) {
             popUp[5].classList.toggle('show');
-        }
 
-    })
+         }
+
+     })
+
 });
+
+
 
 
 
