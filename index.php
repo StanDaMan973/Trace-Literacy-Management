@@ -1,3 +1,7 @@
+<?php require 'contact.php';
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,8 +59,8 @@
     <meta name="theme-color" content="#ffffff">
 
     <script src="assets/js/modernizr.js"></script>
-
-
+    
+    
     <!--[if lt IE 9]>
   <script src="assets/js/html5shiv.min.js"></script>
   <script src="assets/js/respond.min.js"></script>
@@ -565,31 +569,38 @@
                     </div>
                     <div class="connected-column">
                         <div class="wrapper">
-                            <form id='form' action="contact.php" method="post">
-                                <div id="error"></div>
+                            <form id='form' action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
+                               <?php if($msg != ''): ?>
+                                    <div class="alert <?php echo $msgClass; ?>"><?php echo $msg;?></div>
+                               <?php endif; ?>
                                 <div class="input-field">
-                                    <input type="text" name="name"  placeholder="name" id="name" required>
+                                    <input type="text" name="name"  placeholder="name" id="name" value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
                                 </div>
 
                                 <div class="input-field">
-                                    <input type="text" name="mail" placeholder="email" id="email" required>
+                                    <input type="text" name="mail" placeholder="email" id="email" value="<?php echo isset($_POST['mail']) ? $mailFrom : ''; ?>">
                                 </div>
 
                                 <div class="input-field">
-                                    <input type="text" name="subject" placeholder="type of service" id="subject" required>
+                                    <input type="text" name="subject" placeholder="type of service" id="subject" value="<?php echo isset($_POST['subject']) ? $subject : ''; ?>">
                                 </div>
 
                                 <div class="input-field">
-                                    <input type="text" name="phone-number" placeholder="Phone Number" id="phone-number" required>
+                                    <input type="text" name="phone-number" placeholder="Phone Number" id="phone-number" value="<?php echo isset($_POST['phone-number']) ? $phoneNumber : ''; ?>">
                                 </div>
 
                                 <div class="input-field">
-                                    <textarea name="message" placeholder="message" id="message"> </textarea>
+                                    <textarea name="message" placeholder="message" id="message">
+                                    <?php echo isset($_POST['message']) ? $message: ''; ?>"
+                                    </textarea>
                                 </div>
+
 
                                 <div class="btn-submit">
-                                    <button type="submit" name="submit">SEND</button>
+                                    <button name="submit">SEND</button>
                                 </div>
+
+
                             </form>
                         </div>
                     </div>
@@ -686,6 +697,7 @@
 
                                         <ul class="list-contact">
                                             <li>Jennifer.Gray@traceliterary.com</li>
+                                            <li>Phone Number: 732-798-0963</li>   
                                         </ul>
                                     </div>
 
@@ -733,8 +745,11 @@
         <script src="assets/js/venobox.min.js"></script>
         <!-- Main js -->
         <script src="assets/js/main.js"></script>
-        <script src="assets/js/shapes.js"></script>
 
+        <script src="assets/js/shapes.js"></script>
+       
+      
+     
 
 
 </body>

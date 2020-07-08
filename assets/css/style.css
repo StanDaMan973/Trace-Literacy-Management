@@ -1083,7 +1083,7 @@ footer p.sucess-message {
 @media only screen and (min-width: 300px) {
 
     #contact .section-container .row {
-        height: 560px;
+        height: 600px;
         
     }
 
@@ -1182,7 +1182,7 @@ footer p.sucess-message {
 
 @media only screen and (min-width: 700px) {
     #contact .section-container .row {
-        height: 500px;
+        height: 600px;
     }
 
 
@@ -1231,3 +1231,5 @@ footer p.sucess-message {
 
 
 
+
+  
