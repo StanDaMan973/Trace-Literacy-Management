@@ -123,7 +123,7 @@
 
                             <li class="nav-item">
                                 <a data-scroll="" class="nav-link section-scroll" href="#contact">Contact</a>
-                            </li>     
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                                 <b>Digital Creative Content</b>
                                 <b>Book Proposal Development</b>
                                 <b>Proofreading & Copy editing</b>
-                               
+
                             </div>
 
                             <span id="typed"></span>
@@ -213,11 +213,10 @@
                             <h2 class="title-h2">What we do</h2>
                             <span>About us</span>
 
-                            <p>Trace Literary Management is a full-service editorial agency, specializing in writing
-                                content for personal and professional use. Our goal is to provide excellent
-                                editorial
-                                guidance from concept to publication with the utmost care and professionalism.
+                            <p>
+                                From the time we learn to write, we learn to TRACE. As we grow older, the best way to polish our writing is by going over our words over and over again—just like we did when we first started. This is TRACE Literary Management. The BEST of YOU in WORDS.
                             </p>
+                            
                             <a href="#contact" class="btn btn-red">Get started</a>
                         </div>
 
@@ -243,13 +242,7 @@
                             <span>The Editor</span>
 
                             <p>
-                                Jennifer Gray is a freelance writer and copy editor with more than 15 years of
-                                experience. Mrs. Gray graduated with honors in 2008 with a dual Bachelor of Arts in
-                                English and Journalism. Her areas of expertise include proofreading, copy editing,
-                                manuscripts, book proposals, resumes/cover letters, and digital content. She is a
-                                full-time book publishing professional with more than 10 years of experience in sales,
-                                marketing, and international rights. She is an avid reader and grammarian with an
-                                infinite love for words.
+                            Jennifer Gray is the Founder, President, and Editor-in-Chief of TLM. She is a freelance writer and copy editor with more than 15 years of experience. Trained in English Writing and Journalism through her undergraduate studies, her infinite love of words led her to a career in book publishing, where she has honed her skills and expertise in the field.  After more than 10 years in sales and marketing, she is able to provide expert advice on crafting and marketing words for publication. She is a grammarian and reader at heart with a love of words across all genres and disciplines. 
                             </p>
                             <a href="#contact" class="btn btn-red">Get started</a>
                         </div>
@@ -274,8 +267,7 @@
                         <div class="col-centered col-lg-7">
                             <h2 class="title-h2">Writing Services </h2>
                             <p class="font-p mg-tp-30 mg-bt-60">
-                                From the time we learn to write, we learn to TRACE. As we grow older, the best way to polish our writing is by going over our words over and over again—just like we did when we first started.
-                                This is TRACE Literary Management. The BEST of YOU in WORDS.
+                            Trace Literary Management believes in the integrity of each client and their writing content. All works submitted for editing, under contract, are honored as original, attributed, cited or annotated. Our editing is intrinsically a process of offering advice and suggestions to deliver the best of you in words. Click below for more information on each of the services we offer. 
                             </p>
                         </div>
                     </div>
@@ -448,7 +440,7 @@
                             <div class="item-inner">
 
                                 <p>TLM has edited all of the digital content for my business. It has given me peace of mind to know my words are in good hands!</p>
-                                    
+
 
 
                                 <div class="rating">
@@ -482,7 +474,7 @@
                             <div class="item-inner">
 
                                 <p>My Resume and Cover Letter were great! I have received so many compliments and positive reviews during my job search.</p>
-                                    
+
 
 
                                 <div class="rating">
@@ -517,7 +509,7 @@
                             <div class="item-inner">
 
                                 <p>Jen is AMAZING! She has a keen eye. My resume is flawless. I got hired within two months. Thank you for being focused, timely and professional. I appreciate all your help!</p>
-                                    
+
 
 
                                 <div class="rating">
@@ -635,7 +627,7 @@
                                             <img src="assets/images/TLM-LOGO-trnasparent.PNG" alt="">
 
                                         </div>
-                                       
+
 
 
                                         <ul class="list-social list-inline">
@@ -697,7 +689,11 @@
 
                                         <ul class="list-contact">
                                             <li>Jennifer.Gray@traceliterary.com</li>
+<<<<<<< HEAD
                                             <li>Phone Number: 732-798-0963</li>   
+=======
+                                            <li>Phone Number: 732-798-0963</li>
+>>>>>>> 9a6035a5ed6b41f14b20c06d24055bfdad049894
                                         </ul>
                                     </div>
 
