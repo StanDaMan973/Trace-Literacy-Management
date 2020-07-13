@@ -171,13 +171,14 @@ $('.modal-image').magnificPopup({
  Pop up
  ----------------------*/
 
+
 let serviceBox = document.querySelectorAll('[data-box]'); 
 let popUp = document.querySelectorAll('#mypopup'); 
 
 
  serviceBox.forEach(function(box) {
    box.addEventListener('click', function(e) {
-     let target = e.currentTarget;
+          let target = e.currentTarget;
 
           if (target === serviceBox[0]) {
               popUp[0].classList.toggle('show');
@@ -212,8 +213,5 @@ let popUp = document.querySelectorAll('#mypopup');
 
 
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 9a6035a5ed6b41f14b20c06d24055bfdad049894

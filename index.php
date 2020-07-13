@@ -10,9 +10,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=”We help students, writers, first-time authors, and professionals craft their best words on paper! Get a personalized approach to proofreading and editing with us!“>
+    <meta name="description" content=” We help students, writers, first-time authors, and professionals craft their best words on paper! Get a personalized approach to proofreading and editing with us!“>
     <meta name="keywords"
-        content="editorial, resume, cv, portfolio, personal, designer, personal resume, onepage, clean, modern">
+        content="editorial, resume, book publishing">
+        <meta name="author"
+        content="Jennifer Grey">
     <title>Trace Literary Management</title>
 
     <!--External Stylesheets css-->
@@ -138,11 +140,6 @@
 
         <section id="home" class="pd-tp-80 hero">
 
-
-            <!-- <div class="video-mockup">
-                <img src="assets/images/pexels-photo-606541.jpeg" alt="">
-            </div> -->
-
             <!--container-->
 
             <div class="container">
@@ -210,12 +207,13 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="features-text">
 
-                            <h2 class="title-h2">What we do</h2>
-                            <span>About us</span>
+                            <h2 class="title-h2">Our Story</h2>
+                            
 
                             <p>
                                 From the time we learn to write, we learn to TRACE. As we grow older, the best way to polish our writing is by going over our words over and over again—just like we did when we first started. This is TRACE Literary Management. The BEST of YOU in WORDS.
                             </p>
+
                             
                             <a href="#contact" class="btn btn-red">Get started</a>
                         </div>
@@ -239,11 +237,9 @@
                         <div class="features-text">
 
                             <h2 class="title-h2">Who we are</h2>
-                            <span>The Editor</span>
 
                             <p>
-                            Jennifer Gray is the Founder, President, and Editor-in-Chief of TLM. She is a freelance writer and copy editor with more than 15 years of experience. Trained in English Writing and Journalism through her undergraduate studies, her infinite love of words led her to a career in book publishing, where she has honed her skills and expertise in the field.  After more than 10 years in sales and marketing, she is able to provide expert advice on crafting and marketing words for publication. She is a grammarian and reader at heart with a love of words across all genres and disciplines. 
-                            </p>
+                            We are full-service editorial agency dedicated to taking care of your written words. We specialize in writing content for personal and professional use with a detailed and personable approach to editing. Whether it’s a resume that needs another look, the first pages of your book, or a brand message for your business, we’re here to guide you from concept to publication. TLM is safe space for all writers and their words regardless of level of expertise. Our editors have more than 15 years of experience in corporate publishing and freelance editing. It is a dream come true to offer our services to YOU!                            </p>
                             <a href="#contact" class="btn btn-red">Get started</a>
                         </div>
                     </div>
@@ -689,11 +685,7 @@
 
                                         <ul class="list-contact">
                                             <li>Jennifer.Gray@traceliterary.com</li>
-<<<<<<< HEAD
                                             <li>Phone Number: 732-798-0963</li>   
-=======
-                                            <li>Phone Number: 732-798-0963</li>
->>>>>>> 9a6035a5ed6b41f14b20c06d24055bfdad049894
                                         </ul>
                                     </div>
 
