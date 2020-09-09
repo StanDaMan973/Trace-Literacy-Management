@@ -1327,7 +1327,7 @@ footer p.sucess-message {
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
     
     .service-block h3 {
         color: #171f3c;
