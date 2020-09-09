@@ -233,7 +233,7 @@
         <section id="about" class="padd-80">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-6">
+                    <div class="col-lg-12 col-md-12">
                         <div class="features-text">
 
                             <h2 class="title-h2">Who we are</h2>
@@ -268,40 +268,44 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4" id="service-box" data-box="1">
+                    <div class="col-lg-4 col-md-4"  data-box="1">
                         <div class="service-block">
                             <img src="assets/images/proofreading.svg" alt="">
                             <h3>Proofreading & Copy editing</h3>
+                            <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
                             <span class="pop-up-text" id="mypopup">Whether it’s a second pair of eyes or a final edit of a project, proofreading is the most important part of editing. If you’re not sure about grammar or syntax, we will copy edit your work to perfection!</span>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4" id="service-box" data-box="2">
+                    <div class="col-lg-4 col-md-4" data-box="2">
                         <div class="service-block">
                             <img src="assets/images/resume.svg" alt="">
                             <h3>Resumes & Cover Letters</h3>
+                            <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
                             <span class="pop-up-text" id="mypopup" >Everyone needs a great resume to land a job! Get noticed and hired with a complete resume refresh and cover letter update. </span>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4" id="service-box" data-box="3">
+                    <div class="col-lg-4 col-md-4" data-box="3">
                         <div class="service-block">
                              <img src="assets/images/research.svg" alt="">
                             <h3>Digital Creative Content</h3>
+                            <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
                             <span class="pop-up-text" id="mypopup">Creative content is all the rage. If you’re an influencer, blogger, or creating content for the web, we can help you craft a clear and error-free message for your audience.</span>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4" id="service-box" data-box="4">
+                    <div class="col-lg-4 col-md-4" data-box="4">
                         <div class="service-block">
                             <img src="assets/images/book.svg" alt="">
                             <h3>Manuscript Evaluation and Edit</h3>
+                            <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
                             <span class="pop-up-text" id="mypopup" >Have you been writing that book for a long time? Do you think it will be a bestseller? We will evaluate and provide a sound critic and edit. </span>
@@ -309,20 +313,22 @@
                     </div>
 
 
-                    <div class="col-lg-4 col-md-4" id="service-box" data-box="5">
+                    <div class="col-lg-4 col-md-4" data-box="5">
                         <div class="service-block">
                             <img src="assets/images/anterior-part.svg" alt="">
                             <h3>Book Proposal Development</h3>
+                            <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
                             <span class="pop-up-text" id="mypopup">If you have a book idea or a finished manuscript ready for publication, you will need a book proposal to land an agent! We can help you craft your proposal. </span>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4" id="service-box" data-box="6">
+                    <div class="col-lg-4 col-md-4" data-box="6">
                         <div class="service-block">
                             <img src="assets/images/property.svg" alt="">
                             <h3>Consultation</h3>
+                            <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
                             <span class="pop-up-text" id="mypopup">If you need sound advice on any writing project, we offer a free consultation to all first-time clients. </span>
@@ -588,8 +594,6 @@
                                 <div class="btn-submit">
                                     <button name="submit">SEND</button>
                                 </div>
-
-
                             </form>
                         </div>
                     </div>
@@ -685,7 +689,7 @@
                                         <h5>Contact </h5>
 
                                         <ul class="list-contact">
-                                            <li>Phone Number: 732-798-0963</>   
+                                            <li>Phone Number: 732-798-0963</li>   
                                         </ul>
                                     </div>
 

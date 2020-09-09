@@ -271,13 +271,13 @@ Buttons
 
 .btn-red {
     background-color: #8400E2;
-    color: #fff;
+    color: #fff !important;
     box-shadow: 0 5px 15px #000000;
 }
 
 .btn-red:hover {
-    background-color: #8400E2;
-    color: #fff;
+    background-color: #ffffff;
+    color: #8400E2 !important;;
     box-shadow: 0 8px 25px #000000;
 }
 
@@ -523,7 +523,7 @@ About
 .features-text p,
 p.font-p {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 28px;
     margin-bottom: 30px;
     margin-top: 30px;
     text-align: justify;
@@ -569,7 +569,7 @@ p.font-p {
     color: #171f3c;
     font-size: 18px;
     margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     line-height: 25px;
 }
 
@@ -816,7 +816,7 @@ Contact
     line-height: 48px;
     color: #8400E2;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-transform: uppercase;
 }
 
@@ -826,7 +826,19 @@ Contact
     font-size: 14px;
     line-height: 28px;
     color: #8400E2;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+
+#contact .section-container .row .connected-column .connected-title-box p {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 10px;
     text-transform: uppercase;
 
 }
@@ -1067,16 +1079,27 @@ footer p.sucess-message {
 .footer-top .list-menu a {
     line-height: 28px;
     color: #adafc7;
+    transition: all .2s ease-in-out;
    
 }
+
+.footer-top .list-menu a:hover {
+    line-height: 28px;
+    color: #8400E2;
+   
+}
+
 
 .list-contact li {
     color: #adafc7;
     line-height: 32px;
     text-align: center;
+    transition: all .2s ease-in-out;
 }
 
-
+.list-contact li:hover {
+    color: #8400E2;
+}
 
 
 
@@ -1141,12 +1164,33 @@ footer p.sucess-message {
 
 }
 
+@media only screen and (min-width: 300px) {
+
+
+
+    .pop-up .pop-up-text {
+        position: absolute;
+        top: -320px;
+        left: 72px;
+       
+    }
+
+
+}
+
 
 
 @media only screen and (min-width: 400px) {
 
     #contact .section-container .row .connected-column .wrapper {
         max-width: 300px;
+    }
+
+    .pop-up .pop-up-text {
+        position: absolute;
+        top: -320px;
+        left: 150px;
+       
     }
 
 
@@ -1177,6 +1221,13 @@ footer p.sucess-message {
 
     #contact .section-container .row .wrapper #form .input-field #message {
         width: 405px;
+    }
+
+    .pop-up .pop-up-text {
+        position: absolute;
+        top: -320px;
+        left: 180px;
+       
     }
 }
 
@@ -1215,6 +1266,13 @@ footer p.sucess-message {
     .thankyou-box .text-box p {
         padding:0;
     }
+
+    .pop-up .pop-up-text {
+        position: absolute;
+        top: -320px;
+        left: 20px;
+    }
+
 }
 
 
@@ -1226,6 +1284,13 @@ footer p.sucess-message {
         margin-right: auto;
         width: 70%;
         margin-bottom: 0;
+    }
+
+    .pop-up .pop-up-text {
+        position: absolute;
+        top: -320px;
+        left: 75px;
+       
     }
 }
 
