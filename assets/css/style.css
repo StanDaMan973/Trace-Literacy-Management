@@ -1273,6 +1273,18 @@ footer p.sucess-message {
         left: 20px;
     }
 
+    .service-block #book-length {
+       
+        margin-bottom: 22px;
+    }
+
+
+    .service-block #c-length {
+       
+        margin-bottom: 45px;
+    }
+
+
 }
 
 
@@ -1286,13 +1298,47 @@ footer p.sucess-message {
         margin-bottom: 0;
     }
 
+    
     .pop-up .pop-up-text {
         position: absolute;
         top: -320px;
         left: 75px;
+    }
+
+    
+    .service-block #book-length {
        
+        margin-bottom: 22px;
+    }
+
+
+    .service-block #c-length {
+       
+        margin-bottom: 48px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    .service-block #book-length {
+       
+        margin-bottom: 45px;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    
+    .service-block h3 {
+        color: #171f3c;
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 20px !important;
+        line-height: 25px;
+    }
+}
+
+
 
 
 

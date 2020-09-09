@@ -316,7 +316,7 @@
                     <div class="col-lg-4 col-md-4" data-box="5">
                         <div class="service-block">
                             <img src="assets/images/anterior-part.svg" alt="">
-                            <h3>Book Proposal Development</h3>
+                            <h3 id="book-length">Book Proposal Development</h3>
                             <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
@@ -327,7 +327,7 @@
                     <div class="col-lg-4 col-md-4" data-box="6">
                         <div class="service-block">
                             <img src="assets/images/property.svg" alt="">
-                            <h3>Consultation</h3>
+                            <h3 id="c-length" >Consultation</h3>
                             <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
