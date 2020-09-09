@@ -239,7 +239,7 @@
                             <h2 class="title-h2">Who we are</h2>
 
                             <p>
-                            We are full-service editorial agency dedicated to taking care of your written words. We specialize in writing content for personal and professional use with a detailed and personable approach to editing. Whether it’s a resume that needs another look, the first pages of your book, or a brand message for your business, we’re here to guide you from concept to publication. TLM is safe space for all writers and their words regardless of level of expertise. Our editors have more than 15 years of experience in corporate publishing and freelance editing. It is a dream come true to offer our services to YOU!                            </p>
+                            We are full-service editorial agency dedicated to taking care of your written words. We specialize in writing content for personal and professional use with a detailed and personable approach to editing. Whether it’s a resume that needs another look, the first pages of your book, or a brand message for your business, we’re here to guide you from concept to publication. TLM is safe space for all writers and their words, regardless of level of expertise. Our editors have more than 15 years of experience in corporate publishing and freelance editing. It is a dream come true to offer our services to YOU!                            </p>
                             <a href="#contact" class="btn btn-red">Get started</a>
                         </div>
                     </div>
@@ -552,7 +552,8 @@
                     <div class="connected-column">
                         <div class="connected-title-box">
                             <h1>Show Us Your Words</h1>
-                            <h2>Connect With Us for a Personalized Quote! Follow us on Instagram @traceyourwords </h2>
+                            <h2>Connect With Us for a Personalized Quote!</h2>
+                            <p>JOIN OUR “WORDS”COMMUNITY on Instagram! @traceyourwords </p>
                         </div>
                     </div>
                     <div class="connected-column">
@@ -579,7 +580,7 @@
 
                                 <div class="input-field">
                                     <textarea name="message" placeholder="message" id="message">
-                                    <?php echo isset($_POST['message']) ? $message: ''; ?>"
+                                    <?php echo isset($_POST['message']) ? $message: ''; ?>
                                     </textarea>
                                 </div>
 
@@ -684,8 +685,7 @@
                                         <h5>Contact </h5>
 
                                         <ul class="list-contact">
-                                            <li>Jennifer.Gray@traceliterary.com</li>
-                                            <li>Phone Number: 732-798-0963</li>   
+                                            <li>Phone Number: 732-798-0963</>   
                                         </ul>
                                     </div>
 
