@@ -156,7 +156,6 @@
                             <div id="typed-strings">
                                 <b>Resumes & Cover Letters</b>
                                 <b>Digital Creative Content</b>
-                                <b>Book Proposal Development</b>
                                 <b>Proofreading & Copy editing</b>
 
                             </div>
@@ -164,10 +163,6 @@
                             <span id="typed"></span>
 
                             <p> We Are A Full-Service Editorial Agency</p>
-
-
-                            <a href="#about" class="btn btn-red">About us </a>
-
 
                         </div>
 
@@ -184,68 +179,28 @@
         <!--About-->
 
 
-        <section id="about" class="padd-80">
-
-            <!--container-->
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg-6 col-md-6">
-
-                        <div class="video-box">
-
-                            <img src="/assets/images/typewriter1.jpg" alt="">
-
-
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="features-text">
-
-                            <h2 class="title-h2">Our Story</h2>
-                            
-
-                            <p>
-                                From the time we learn to write, we learn to TRACE. As we grow older, the best way to polish our writing is by going over our words over and over again—just like we did when we first started. This is TRACE Literary Management. The BEST of YOU in WORDS.
-                            </p>
-
-                            
-                            <a href="#contact" class="btn btn-red">Get started</a>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-            <!--container-->
-
-        </section>
 
 
 
         <section id="about" class="padd-80">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12">
+                     <div class="col-lg-6 col-md-6">
+                        <div class="img-box">
+                           <img src="/assets/images/image.png" alt="">
+                        </div>
+                     </div> 
+                    <div class="col-lg-6 col-md-6">
                         <div class="features-text">
-
                             <h2 class="title-h2">Who we are</h2>
-
-                            <p>
-                            We are full-service editorial agency dedicated to taking care of your written words. We specialize in writing content for personal and professional use with a detailed and personable approach to editing. Whether it’s a resume that needs another look, the first pages of your book, or a brand message for your business, we’re here to guide you from concept to publication. TLM is safe space for all writers and their words, regardless of level of expertise. Our editors have more than 15 years of experience in corporate publishing and freelance editing. It is a dream come true to offer our services to YOU!                            </p>
+                        <p>
+                                We are full-service editorial agency dedicated to taking care of your written words. We specialize in writing content for personal and professional use with a detailed and personable approach to editing. Whether it’s a resume that needs another look, the first pages of your book, or a brand message for your business, we’re here to guide you from concept to publication. TLM is safe space for all writers and their words, regardless of level of expertise. Our editors have more than 15 years of experience in corporate publishing and freelance editing. It is a dream come true to offer our services to YOU!.                                 From the time we learn to write, we learn to TRACE. As we grow older, the best way to polish our writing is by going over our words over and over again—just like we did when we first started. This is TRACE Literary Management. The BEST of YOU in WORDS.
+                        </p>
                             <a href="#contact" class="btn btn-red">Get started</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--container-->
+             </div>
         </section>
 
 
@@ -261,17 +216,17 @@
                 <div class="row">
                     <div class="row-centered">
                         <div class="col-centered col-lg-7">
-                            <h2 class="title-h2">Writing Services </h2>
+                            <h2 class="title-h2">Editing Services</h2>
                             <p class="font-p mg-tp-30 mg-bt-60">
                             Trace Literary Management believes in the integrity of each client and their writing content. All works submitted for editing, under contract, are honored as original, attributed, cited or annotated. Our editing is intrinsically a process of offering advice and suggestions to deliver the best of you in words. Click below for more information on each of the services we offer. 
                             </p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4"  data-box="1">
+                    <div class="col-lg-3 col-md-6"  data-box="1">
                         <div class="service-block">
                             <img src="assets/images/proofreading.svg" alt="">
-                            <h3>Proofreading & Copy editing</h3>
+                            <h3>proofreading & copy editing</h3>
                             <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
@@ -279,10 +234,10 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4" data-box="2">
+                    <div class="col-lg-3 col-md-6" data-box="2">
                         <div class="service-block">
                             <img src="assets/images/resume.svg" alt="">
-                            <h3>Resumes & Cover Letters</h3>
+                            <h3>resumes & cover letters</h3>
                             <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
@@ -290,10 +245,10 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4" data-box="3">
+                    <div class="col-lg-3 col-md-6" data-box="3">
                         <div class="service-block">
                              <img src="assets/images/research.svg" alt="">
-                            <h3>Digital Creative Content</h3>
+                            <h3>digital creative content</h3>
                             <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
@@ -301,33 +256,10 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4" data-box="4">
-                        <div class="service-block">
-                            <img src="assets/images/book.svg" alt="">
-                            <h3>Manuscript Evaluation and Edit</h3>
-                            <a id="service-box" class="btn btn-red" >Learn More</a>
-                        </div>
-                        <div class="pop-up">
-                            <span class="pop-up-text" id="mypopup" >Have you been writing that book for a long time? Do you think it will be a bestseller? We will evaluate and provide a sound critic and edit. </span>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-4" data-box="5">
-                        <div class="service-block">
-                            <img src="assets/images/anterior-part.svg" alt="">
-                            <h3 id="book-length">Book Proposal Development</h3>
-                            <a id="service-box" class="btn btn-red" >Learn More</a>
-                        </div>
-                        <div class="pop-up">
-                            <span class="pop-up-text" id="mypopup">If you have a book idea or a finished manuscript ready for publication, you will need a book proposal to land an agent! We can help you craft your proposal. </span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4" data-box="6">
+                    <div class="col-lg-3 col-md-6" data-box="4">
                         <div class="service-block">
                             <img src="assets/images/property.svg" alt="">
-                            <h3 id="c-length" >Consultation</h3>
+                            <h3 id="c-length" >consultation</h3>
                             <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
@@ -353,7 +285,6 @@
 
                     <div class="quote">
                         <i class="icon_quotations"></i>
-
                     </div>
 
                     <h2 class="title-h2 color-white">What our clients are saying</h2>
@@ -559,7 +490,7 @@
                         <div class="connected-title-box">
                             <h1>Show Us Your Words</h1>
                             <h2>Connect With Us for a Personalized Quote!</h2>
-                            <p>JOIN OUR “WORDS”COMMUNITY on Instagram! @traceyourwords </p>
+                            <p>JOIN OUR “WORDS” COMMUNITY on Instagram! @traceyourwords </p>
                         </div>
                     </div>
                     <div class="connected-column">

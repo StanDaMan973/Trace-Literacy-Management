@@ -153,6 +153,23 @@ hr.hr {
     background-color: #8400E2;
 }
 
+
+.features-text span {
+    color: #171f3c;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.features-text p,
+p.font-p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: justify;
+    font-weight: 600;
+}
 /*-------margins padding--------*/
 
 .mg-tp-20 {
@@ -513,22 +530,12 @@ About
     font-weight: 700;
 }
 
-.features-text span {
-    color: #171f3c;
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 300;
+#about .img-box img {
+    width: 100%;
+   height: 570px;
+   object-fit: cover;
 }
 
-.features-text p,
-p.font-p {
-    font-size: 16px;
-    line-height: 28px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    text-align: justify;
-    font-weight: 600;
-}
 
 .video-box img {
     border-radius: 10px;
@@ -558,24 +565,6 @@ p.font-p {
 
 
 
-.service-block {
-    text-align: center;
-    position: relative;
-    margin-bottom: 40px;
-    padding: 15px;
-}
-
-.service-block h3 {
-    color: #171f3c;
-    font-size: 18px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    line-height: 25px;
-}
-
-.service-block img {
-    width: 50px;
-}
 
 
 /*----------------------------------------
@@ -625,6 +614,27 @@ thank you page
 /*----------------------------------------
 Service
 ----------------------------------------*/
+
+.service-block {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+.service-block h3 {
+    color: #171f3c;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.service-block img {
+    width: 50px;
+}
+
 
 #service-box {
     cursor: pointer;
@@ -1166,8 +1176,6 @@ footer p.sucess-message {
 
 @media only screen and (min-width: 300px) {
 
-
-
     .pop-up .pop-up-text {
         position: absolute;
         top: -320px;
@@ -1192,7 +1200,6 @@ footer p.sucess-message {
         left: 150px;
        
     }
-
 
 }
 
@@ -1232,6 +1239,12 @@ footer p.sucess-message {
 }
 
 @media only screen and (min-width: 700px) {
+
+    #about .img-box img {
+       height: 767px;
+       object-fit: cover;
+    }
+    
     #contact .section-container .row {
         height: 580px;
     }
@@ -1270,20 +1283,8 @@ footer p.sucess-message {
     .pop-up .pop-up-text {
         position: absolute;
         top: -320px;
-        left: 20px;
+        left: 80px;
     }
-
-    .service-block #book-length {
-       
-        margin-bottom: 22px;
-    }
-
-
-    .service-block #c-length {
-       
-        margin-bottom: 45px;
-    }
-
 
 }
 
@@ -1305,37 +1306,12 @@ footer p.sucess-message {
         left: 75px;
     }
 
-    
-    .service-block #book-length {
-       
-        margin-bottom: 22px;
+    #about .img-box img {
+        width: 100%;
+       height: 570px;
+       object-fit: cover;
     }
 
-
-    .service-block #c-length {
-       
-        margin-bottom: 48px;
-    }
-
-}
-
-@media only screen and (min-width: 1000px) {
-    
-    .service-block #book-length {
-       
-        margin-bottom: 45px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    
-    .service-block h3 {
-        color: #171f3c;
-        font-size: 18px;
-        margin-top: 25px;
-        margin-bottom: 20px !important;
-        line-height: 25px;
-    }
 }
 
 
