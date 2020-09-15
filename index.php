@@ -116,7 +116,7 @@
                                 <a data-scroll="" class="nav-link section-scroll" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a data-scroll="" class="nav-link section-scroll" href="#services">Writing Services</a>
+                                <a data-scroll="" class="nav-link section-scroll" href="#services">Editing Services</a>
                             </li>
 
                             <li>
@@ -194,7 +194,7 @@
                         <div class="features-text">
                             <h2 class="title-h2">Who we are</h2>
                         <p>
-                                We are full-service editorial agency dedicated to taking care of your written words. We specialize in writing content for personal and professional use with a detailed and personable approach to editing. Whether it’s a resume that needs another look, the first pages of your book, or a brand message for your business, we’re here to guide you from concept to publication. TLM is safe space for all writers and their words, regardless of level of expertise. Our editors have more than 15 years of experience in corporate publishing and freelance editing. It is a dream come true to offer our services to YOU!.                                 From the time we learn to write, we learn to TRACE. As we grow older, the best way to polish our writing is by going over our words over and over again—just like we did when we first started. This is TRACE Literary Management. The BEST of YOU in WORDS.
+                        From the time we learn to write, we learn to TRACE. As we grow older, the best way to polish our writing is by going over our words over and over again—just like we did when we first started. This is TRACE Literary Management. The BEST of YOU in WORDS. We are full-service editorial agency dedicated to taking care of your written words. We specialize in writing content for personal and professional use with a detailed and personable approach to editing. Whether it’s a resume that needs another look, the first pages of your book, or a brand message for your business, we’re here to guide you from concept to publication. TLM is safe space for all writers and their words, regardless of level of expertise. Our editors have more than 15 years of experience in corporate publishing and freelance editing. It is a dream come true to offer our services to YOU!. 
                         </p>
                             <a href="#contact" class="btn btn-red">Get started</a>
                         </div>
@@ -617,7 +617,7 @@
 
                                     <div class="col-lg-5 col-md-4">
 
-                                        <h5>Contact </h5>
+                                        <h5>Contact</h5>
 
                                         <ul class="list-contact">
                                             <li>Phone Number: 732-798-0963</li>   
