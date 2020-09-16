@@ -603,7 +603,7 @@
                                             </li>
 
                                             <li>
-                                                <a href="#">Writing Services</a>
+                                                <a href="#">Editing Services</a>
                                             </li>
                                             <li>
                                                 <a href="#">Contact</a>
