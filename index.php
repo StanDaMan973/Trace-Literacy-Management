@@ -146,7 +146,7 @@
 
                 <div class="row">
 
-                    <div class="col-md-7 col-xs-12 col-sm-7 center">
+                    <div class="col-md-8 col-xs-12 col-sm-7 center">
 
                         <div class="hero-text">
 
@@ -194,7 +194,7 @@
                         <div class="features-text">
                             <h2 class="title-h2">Who we are</h2>
                         <p>
-                        From the time we learn to write, we learn to TRACE. As we grow older, the best way to polish our writing is by going over our words over and over again—just like we did when we first started. This is TRACE Literary Management. The BEST of YOU in WORDS. We are full-service editorial agency dedicated to taking care of your written words. We specialize in writing content for personal and professional use with a detailed and personable approach to editing. Whether it’s a resume that needs another look, the first pages of your book, or a brand message for your business, we’re here to guide you from concept to publication. TLM is safe space for all writers and their words, regardless of level of expertise. Our editors have more than 15 years of experience in corporate publishing and freelance editing. It is a dream come true to offer our services to YOU!. 
+                        From the time we learn to write, we learn to TRACE. As we grow older, the best way to polish our writing is by going over our words over and over again—just like we did when we first started. This is TRACE Literary Management. The BEST of YOU in WORDS. We are a full-service editorial agency dedicated to taking care of your written words. We specialize in writing content for personal and professional use with a detailed and personable approach to editing. Whether it’s a resume that needs another look, the first pages of your book, or a brand message for your business, we’re here to guide you from concept to publication. TLM is safe space for all writers and their words, regardless of level of expertise. Our editors have more than 15 years of experience in corporate publishing and freelance editing. It is a dream come true to offer our services to YOU!. 
                         </p>
                             <a href="#contact" class="btn btn-red">Get started</a>
                         </div>
@@ -210,7 +210,7 @@
 
         <!--Services-->
 
-        <section id="services" class="pd-tp-80 pd-bt-40">
+        <section id="services" class="pd-bt-40">
 
             <div class="container">
                 <div class="row">
