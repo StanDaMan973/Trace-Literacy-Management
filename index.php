@@ -185,12 +185,7 @@
         <section id="about" class="padd-80">
             <div class="container">
                 <div class="row">
-                     <div class="col-lg-6 col-md-6">
-                        <div class="img-box">
-                           <img src="/assets/images/image.png" alt="">
-                        </div>
-                     </div> 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-12 col-md-12">
                         <div class="features-text">
                             <h2 class="title-h2">Who we are</h2>
                         <p>
@@ -226,7 +221,7 @@
                     <div class="col-lg-3 col-md-6"  data-box="1">
                         <div class="service-block">
                             <img src="assets/images/proofreading.svg" alt="">
-                            <h3>proofreading & copy editing</h3>
+                            <h3>proofreading & copyediting</h3>
                             <a id="service-box" class="btn btn-red" >Learn More</a>
                         </div>
                         <div class="pop-up">
@@ -325,7 +320,7 @@
                                 <div class="avatar-info">
 
                                     <h4>C. Bullock</h4>
-                                    <span>Manuscript Evaluation and Edit</span>
+                                    <span>Digital Creative Content</span>
 
                                 </div>
 
@@ -358,7 +353,40 @@
                                 <div class="avatar-info">
 
                                     <h4>A. Johnson</h4>
-                                    <span>Proofreading & Copy editing</span>
+                                    <span>Proofreading & Copyediting</span>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="item-inner">
+
+                                <p>Jen had been my go-to person to edit my professional work since i was in college. She is amazing to work with and always seems to make things perfectly polished! </p>
+
+
+                                <div class="rating">
+                                    <span class="icon_star"></span>
+                                    <span class="icon_star"></span>
+                                    <span class="icon_star"></span>
+                                    <span class="icon_star"></span>
+                                    <span class="icon_star"></span>
+                                </div>
+
+
+                            </div>
+
+                            <div class="avatar-item">
+
+                                <div class="avatar-info">
+
+                                    <h4>T. Johnson</h4>
+                                    <span>Proofreading & Copyediting</span>
 
                                 </div>
 
