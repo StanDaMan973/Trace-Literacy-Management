@@ -17,6 +17,10 @@ if(filter_has_var(INPUT_POST, 'submit')) {
 
     if(!empty($name) && !empty($mailFrom) && !empty($subject) && !empty($phoneNumber)) {
 
+        if(isset($_POST['bot-smasher']) && !empty($_POST['bot-smasher'])){
+            die();
+        }
+
         if(preg_match('/http|www/i',$message)) {
             $msg = 'we do not allow URL';
             $msgClass = 'alert-danger';

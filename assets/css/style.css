@@ -340,6 +340,11 @@ Preloader page
     }
 }
 
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
 
 
 /*----------------------------------------

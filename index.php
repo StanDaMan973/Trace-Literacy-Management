@@ -527,6 +527,7 @@
                                <?php if($msg != ''): ?>
                                     <div class="alert <?php echo $msgClass; ?>"><?php echo $msg;?></div>
                                <?php endif; ?>
+                               
                                 <div class="input-field">
                                     <input type="text" name="name"  placeholder="name" id="name" value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
                                 </div>
@@ -541,6 +542,10 @@
 
                                 <div class="input-field">
                                     <input type="text" name="phone-number" placeholder="Phone Number" id="phone-number" value="<?php echo isset($_POST['phone-number']) ? $phoneNumber : ''; ?>">
+                                </div>
+
+                                <div class="col">
+                                    <input class="hidden" type="text" id="bot-smasher" name="bot-smasher">
                                 </div>
 
                                 <div class="input-field">
